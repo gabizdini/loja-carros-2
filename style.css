@@ -1,0 +1,101 @@
+/* Estilo geral para o body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header > h2 {
+    text-align: center;
+}
+
+header > img {
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+    display: flex;
+}
+
+/* Layout principal */
+#home {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Estilos das seções da esquerda e direita */
+.left, .right {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os veículos (cards) */
+.veiculos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para o container de cada veículo */
+.container_veiculo {
+    display: flex; /* Imagem à esquerda e texto à direita */
+    align-items: flex-start;
+    width: 400px;
+    background-color: #111;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Estilo para a imagem do veículo */
+.imagem img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+/* Estilo para o texto (info) */
+.info {
+    padding: 0px;
+    flex-direction: column;
+    font-size: 14px;
+    display: flex;
+    color: white;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Estilo para os títulos e textos */
+.container_veiculo h2 {
+    color: white;
+    margin: 0;
+}
+
+.container_veiculo span {
+    color: #febe01;
+    font-weight: bold;
+}
+
+/* Estilo para os botões */
+.container_veiculo button {
+    border: none;
+    background-color: #febe01;
+    color: #332200;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 0.9em; /* Tamanho da fonte reduzido */
+    padding: 6px 15px; /* Menor padding para diminuir o tamanho */
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.container_veiculo button:hover {
+    background-color: #d4a800;
+}
+
+p{
+    padding: 0px;
+    margin-bottom: 5px;
+}
